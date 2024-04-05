@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+
+.header{
+     background-color: #fff;
+    color: #333; 
+    text-align: center;
+    padding: 20px 0;
+    background-image: url('Izumo.png'); 
+    background-size: cover; 
+    background-position: top; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.header img{
+    width: 35p0x;
+    padding-top: 14px;
+    padding-right: 25;
+}
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    text-align: center; 
+}
+
+a {
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a img {
+    width: 300px; 
+    height: 200px;
+    border: 2px solid #333;
+}
+
+.category {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border: 1px solid #333;
+    color: #333;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Set default text color to white */
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meal-info {
+    display: flex;
+    margin-bottom: 20px;
+    border: 2px solid #ccc; /* Border for the meal info section */
+    border-radius: 5px;
+    overflow: hidden; /* Ensure border radius applies properly */
+}
+
+.meal-image img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.meal-details {
+    flex: 1;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.buy-now {
+    background-color: #4CAF50;
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.buy-now:hover {
+    background-color: #45a049;
+}
+
+.extras,
+.serving-size,
+.write-up {
+    margin-bottom: 20px;
+    border: 2px solid #ccc; 
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.extras ul,
+.serving-size p,
+.write-up p {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.extras h2,
+.serving-size h2,
+.write-up h2 {
+    margin-top: 0;
+}
+footer {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.back-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
